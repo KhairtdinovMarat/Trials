@@ -42,7 +42,7 @@ public class MeshSerializer : MonoBehaviour
         {
             return;
         }
-        foreach (Transform child in inputObject.transform)
+        foreach (Transform child in root)
         {
             var container_child = new ObjectContainer();
             container.AddChild(container_child);
